@@ -1,12 +1,20 @@
 #include <stdio.h>
 #include <string.h>
 void main()
+<<<<<<< HEAD
 { char name[100], G[5], answer[10];
+=======
+{ char nameList[100], G[5], answer[10];
+>>>>>>> b12af704039c317151dbe2a996afc42dca9f79fe
   int i;
   do
   {
     printf("What is your name? ");
+<<<<<<< HEAD
     scanf("%s", name);
+=======
+    scanf("%s", nameList);
+>>>>>>> b12af704039c317151dbe2a996afc42dca9f79fe
     do
     {
       printf("What is your blood group [A, B, AB, or O]? ");
